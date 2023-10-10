@@ -1,2 +1,2 @@
 # Task-Management-Microservices
-A project with Java-Spring-Microservices-Angular.
+A simple project with Java-Spring-Microservices-Angular.
