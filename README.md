@@ -1,5 +1,6 @@
 # Task-Management-Microservices
 A project with Java-Spring-Microservices-Angular.
+
 Skills used: Java, Spring Framework, Dependency Injection, Spring Boot, Microservices, REST API, Angular, Spring Tool Suite IDE, HTML, Java Script, TypeScript, H2 Database, Spring Security, Spring Cloud, Eureka Server.
 
 Task management system where users can create, update, and list tasks through a web interface. The backend consist of microservices built with Spring Boot, and the frontend is developed using Angular.
