@@ -1,0 +1,11 @@
+<!-- task-update.component.html -->
+<h2>Edit Task</h2>
+<app-task-form *ngIf="task" [task]="task" (submitForm)="updateTask()"></app-task-form>
+<div *ngIf="task">
+  <form (submit)="updateTask()">
+    <label>Title: <input [(ngModel)]="task.title" required /></label>
+    <label>Description: <input [(ngModel)]="task.description" required /></label>
+    <label>Status: <input [(ngModel)]="task.status" required /></label>
+    <button type="submit">Update</button>
+  </form>
+</div>

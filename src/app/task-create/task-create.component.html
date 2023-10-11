@@ -1,0 +1,12 @@
+<!-- task-create.component.html -->
+<h2>Create Task</h2>
+<!-- app-task-form [task]="newTask" (submitForm)="createTask()"></app-task-form-->
+<form (submit)="createTask()">
+  <label>Title: <input [(ngModel)]="newTask.title" name="title" required /></label>
+  <label>Description: <input [(ngModel)]="newTask.description" name="description" required /></label>
+  <label>Status: <input [(ngModel)]="newTask.status" name="status" required /></label>
+  <button type="submit">Create</button>
+</form>
+
+
+
